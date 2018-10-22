@@ -1,6 +1,6 @@
 {
     "name": "sxhkdrc-syntax",
-    "displayName": "sxhkdrc-syntax",
+    "displayName": "sxhkdrc",
     "description": "Syntax definition for the sxhkd configuration file",
     "version": "0.0.1",
     "publisher": "mosbasik",
