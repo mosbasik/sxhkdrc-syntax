@@ -1,0 +1,26 @@
+{
+    "name": "sxhkdrc-syntax",
+    "displayName": "sxhkdrc-syntax",
+    "description": "Syntax definition for the sxhkd configuration file",
+    "version": "0.0.1",
+    "publisher": "mosbasik",
+    "engines": {
+        "vscode": "^1.28.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "sxhkdrc",
+            "aliases": ["sxhkdrc", "sxhkdrc"],
+            "extensions": [""],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "sxhkdrc",
+            "scopeName": "source.sxhkdrc",
+            "path": "./syntaxes/sxhkdrc.tmLanguage.json"
+        }]
+    }
+}
