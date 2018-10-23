@@ -1,5 +1,7 @@
 .vscode/**
 .vscode-test/**
 .gitignore
+.gitattributes
 vsc-extension-quickstart.md
 test_files/**
+sxhkdrc-syntax.code-workspace
